@@ -1,0 +1,12 @@
+export { default as Food1 } from "./food1.webp";
+export { default as Food2 } from "./food2.webp";
+export { default as Food3 } from "./food3.webp";
+export { default as Food4 } from "./food4.webp";
+export { default as Food5 } from "./food5.webp";
+export { default as Food6 } from "./food6.webp";
+export { default as Food7 } from "./food7.webp";
+export { default as Food8 } from "./food8.webp";
+export { default as Food9 } from "./food9.webp";
+export { default as Food10 } from "./food10.webp";
+export { default as Food11 } from "./food11.webp";
+export { default as Chicken } from "./chicken.webp";

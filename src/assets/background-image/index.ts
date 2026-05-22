@@ -1,0 +1,14 @@
+export { default as Beverages } from "./beverages.webp";
+export { default as ContactBg } from "./contactbg.webp";
+export { default as Grass1 } from "./grass1.webp";
+export { default as Grass2 } from "./grass2.webp";
+export { default as Grass3 } from "./grass3.webp";
+export { default as Grass4 } from "./grass4.webp";
+export { default as Leaf } from "./leaf.webp";
+export { default as Rope } from "./rope.webp";
+export { default as RopeStem } from "./rope-stem.webp";
+export { default as Plank1 } from "./plank1.webp";
+export { default as Plank2 } from "./plank2.webp";
+export { default as Stone } from "./stone.webp";
+export { default as Dessert1 } from "./dessert1.webp";
+export { default as Dessert2 } from "./dessert2.webp";
