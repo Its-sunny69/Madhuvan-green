@@ -51,7 +51,7 @@ export default function Footer() {
           <p className="text-2xl">Follow us on:</p>
           <ul className="mt-4 ml-2 w-fit space-y-2">
             <li className="w-fit transition-all hover:scale-95 hover:opacity-60">
-              <Link href="" className="flex items-center justify-center gap-2">
+              <Link href="#" className="flex items-center justify-center gap-2">
                 <Image
                   src={WhatsAppIcon}
                   alt="WhatsApp"
@@ -62,7 +62,7 @@ export default function Footer() {
               </Link>
             </li>
             <li className="w-fit transition-all hover:scale-95 hover:opacity-60">
-              <Link href="" className="flex items-center justify-center gap-2">
+              <Link href="#" className="flex items-center justify-center gap-2">
                 <Image
                   src={InstagramIcon}
                   alt="Instagram"
@@ -73,7 +73,7 @@ export default function Footer() {
               </Link>
             </li>
             <li className="w-fit transition-all hover:scale-95 hover:opacity-60">
-              <Link href="" className="flex items-center justify-center gap-2">
+              <Link href="#" className="flex items-center justify-center gap-2">
                 <Image
                   src={FacebookIcon}
                   alt="Facebook"
