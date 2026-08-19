@@ -1,5 +1,12 @@
 import { Grass2, Grass4 } from "@/assets/background-image";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description: "Privacy policy for the Madhuvan Greens website.",
+  alternates: { canonical: "/privacy-policy" },
+};
 
 export default function PrivacyPolicy() {
   return (

@@ -9,10 +9,31 @@ import TeamSection from "@/components/TeamSection";
 import Image from "next/image";
 import Whatsapp2 from "@/assets/social-icons/whatsapp2.svg";
 import Link from "next/link";
+import { siteConfig } from "@/lib/site";
 
 export default function Home() {
+  const restaurantSchema = {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    name: siteConfig.name,
+    description: siteConfig.description,
+    url: siteConfig.url,
+    image: `${siteConfig.url}/opengraph-image`,
+    servesCuisine: ["Indian", "Vegetarian", "Non-vegetarian"],
+    address: {
+      "@type": "PostalAddress",
+      ...siteConfig.address,
+    },
+    geo: { "@type": "GeoCoordinates", ...siteConfig.geo },
+    hasMap: siteConfig.mapsUrl,
+  };
+
   return (
     <main className="bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(restaurantSchema) }}
+      />
       <section id="hero-section">
         <HeroSection />
       </section>

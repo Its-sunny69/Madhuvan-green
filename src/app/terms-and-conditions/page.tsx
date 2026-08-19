@@ -1,5 +1,12 @@
 import { Grass3, Grass4 } from "@/assets/background-image";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms & Conditions",
+  description: "Terms and conditions for the Madhuvan Greens website.",
+  alternates: { canonical: "/terms-and-conditions" },
+};
 
 export default function TermsAndContions() {
   return (
